@@ -4,13 +4,15 @@ React Native Switch Library
 
 ---
 
-
-[![Build Status][build-badge]][build]
+<!-- [![CircleCI](https://circleci.com/gh/nghinv-software/react-native-switch/.svg?style=svg)](https://circleci.com/gh/nghinv-software/react-native-switch) -->
 [![Version][version-badge]][package]
 [![MIT License][license-badge]][license]
 [![All Contributors][all-contributors-badge]][all-contributors]
 [![PRs Welcome][prs-welcome-badge]][prs-welcome]
 
+
+
+![switch](./assets/demo.png)
 
 ## Installation
 
@@ -65,12 +67,6 @@ const styles = StyleSheet.create({
 export default App;
 ```
 
-## License
-
-MIT
-
-[build-badge]: https://img.shields.io/circleci/project/github/callstack/react-native-paper/main.svg?style=flat-square
-[build]: https://circleci.com/gh/callstack/react-native-paper
 [version-badge]: https://img.shields.io/npm/v/@nghinv/react-native-switch.svg?style=flat-square
 [package]: https://www.npmjs.com/package/@nghinv/react-native-switch
 [license-badge]: https://img.shields.io/npm/l/@nghinv/react-native-switch.svg?style=flat-square
