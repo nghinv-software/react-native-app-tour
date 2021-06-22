@@ -4,15 +4,15 @@ React Native Switch Library
 
 ---
 
-<!-- [![CircleCI](https://circleci.com/gh/nghinv-software/react-native-switch/.svg?style=svg)](https://circleci.com/gh/nghinv-software/react-native-switch) -->
+[![CircleCI](https://circleci.com/gh/nghinv-software/react-native-switch.svg?style=svg)](https://circleci.com/gh/nghinv-software/react-native-switch)
 [![Version][version-badge]][package]
 [![MIT License][license-badge]][license]
 [![All Contributors][all-contributors-badge]][all-contributors]
 [![PRs Welcome][prs-welcome-badge]][prs-welcome]
 
-
-
-![switch](./assets/demo.png)
+<p align="center">
+<img src="./assets/demo.png" width="300"/>
+</p>
 
 ## Installation
 
