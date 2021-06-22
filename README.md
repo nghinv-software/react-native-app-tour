@@ -67,6 +67,27 @@ const styles = StyleSheet.create({
 export default App;
 ```
 
+# Property
+
+| Property | Type | Default | Description |
+|----------|:----:|:-------:|-------------|
+| size | `Number` | `27` |  |
+| thumbColor | `String` | `white` |  |
+| trackColor | `TrackColorProperty` |  |  |
+| disabled | `Bool` | `false` |  |
+| value | `Bool` | `false` |  |
+| onChange | `(value: boolean) => void` | `undefined` |  |
+| style | `ViewStyle` | `undefined` |  |
+| progress | `Animated.SharedValue<number>` | `undefined` |  |
+
+
+## TrackColorProperty
+
+| Property | Type | Default | Description |
+|----------|:----:|:-------:|-------------|
+| false | `String` | `rgba(120, 120, 120, 0.3)` |  |
+| true | `String` | `#31D158` |  |
+
 [version-badge]: https://img.shields.io/npm/v/@nghinv/react-native-switch.svg?style=flat-square
 [package]: https://www.npmjs.com/package/@nghinv/react-native-switch
 [license-badge]: https://img.shields.io/npm/l/@nghinv/react-native-switch.svg?style=flat-square
