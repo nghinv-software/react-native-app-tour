@@ -3,7 +3,7 @@
  * Copyright (c) 2021 nghinv@lumi.biz
  */
 
-import type { AppTourStep, ScenesType } from '../src/lib/types';
+import type { AppTourStep, ScenesType } from '../src/types';
 
 const NODE_IDS = {
   homeTxtWelcome: '1',
