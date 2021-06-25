@@ -7,7 +7,7 @@ React Native App Tour Library
 [![CircleCI](https://circleci.com/gh/nghinv-software/react-native-app-tour.svg?style=svg)](https://circleci.com/gh/nghinv-software/react-native-app-tour)
 [![Version][version-badge]][package]
 [![MIT License][license-badge]][license]
-[![Instal Size][install-size-name]][download-size]
+<!-- [![Instal Size][install-size-name]][download-size] -->
 
 
 ## Installation
