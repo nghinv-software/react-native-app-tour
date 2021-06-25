@@ -1,7 +1,7 @@
 {
-  "name": "@nghinv/react-native-switch",
-  "version": "0.0.2",
-  "description": "React Native switch Library",
+  "name": "@nghinv/react-native-app-tour",
+  "version": "0.0.1",
+  "description": "React Native app tour Library",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
@@ -23,18 +23,20 @@
     "release": "release-it"
   },
   "keywords": [
-    "react-native",
+    "react native",
     "ios",
     "android",
-    "switch"
+    "app tour",
+    "user guide",
+    "nghinv"
   ],
-  "repository": "https://github.com/nghinv-software/react-native-switch",
+  "repository": "https://github.com/nghinv-software/react-native-app-tour",
   "author": "NghiNV <nguyennghidt6@gmail.com> (https://github.com/nghi-nv)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nghinv-software/react-native-switch/issues"
+    "url": "https://github.com/nghinv-software/react-native-app-tour/issues"
   },
-  "homepage": "https://github.com/nghinv-software/react-native-switch#readme",
+  "homepage": "https://github.com/nghinv-software/react-native-app-tour#readme",
   "publishConfig": {
     "access": "public",
     "cache": "~/.npm",
@@ -43,6 +45,7 @@
   "devDependencies": {
     "@commitlint/config-conventional": "^11.0.0",
     "@react-native-community/eslint-config": "^2.0.0",
+    "@nghinv/eslint-config": "^2.3.0",
     "@release-it/conventional-changelog": "^2.0.0",
     "@types/jest": "^26.0.0",
     "@types/react": "^16.9.19",
@@ -68,7 +71,10 @@
   "dependencies": {
     "react-fast-compare": "*",
     "react-native-gesture-handler": "*",
-    "react-native-reanimated": ">=2.0.0-rc.0"
+    "react-native-reanimated": ">=2.0.0-rc.0",
+    "react-native-event-listeners": "^1.0.7",
+    "react-native-animateable-text": "^0.6.2",
+    "react-native-svg": "*"
   },
   "jest": {
     "preset": "react-native",
@@ -93,38 +99,12 @@
       "release": true
     }
   },
-  "eslintConfig": {
-    "root": true,
-    "extends": [
-      "@react-native-community",
-      "prettier"
-    ],
-    "rules": {
-      "prettier/prettier": [
-        "error",
-        {
-          "quoteProps": "consistent",
-          "singleQuote": true,
-          "tabWidth": 2,
-          "trailingComma": "es5",
-          "useTabs": false
-        }
-      ]
-    }
-  },
   "eslintIgnore": [
     "node_modules/",
     "lib/",
     "src/index.tsx",
     "example/App.tsx"
   ],
-  "prettier": {
-    "quoteProps": "consistent",
-    "singleQuote": true,
-    "tabWidth": 2,
-    "trailingComma": "es5",
-    "useTabs": false
-  },
   "react-native-builder-bob": {
     "source": "src",
     "output": "lib",
