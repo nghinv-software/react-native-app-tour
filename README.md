@@ -141,7 +141,7 @@ export function App() {
 | Property | Type | Default | Description |
 |----------|:----:|:-------:|-------------|
 | sceneIndex | `number` | `0` | Index of scenes |
-| scenes | `Array<Array<SceneProperty>>` | `0` | Index of scenes |
+| scenes | `Array<Array<SceneProperty>>` | `[]` | Index of scenes |
 | options | `OptionsProperty` | `undefined` | Custom app tour props |
 
 

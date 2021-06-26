@@ -81,6 +81,8 @@ function MashView(props: MashViewProps) {
         setTimeout(() => {
           onNextStep();
         }, currentScene.nextDelay);
+      } else {
+        onNextStep();
       }
     }
   };
