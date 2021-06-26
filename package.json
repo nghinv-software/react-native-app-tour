@@ -1,6 +1,6 @@
 {
   "name": "@nghinv/react-native-app-tour",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React Native app tour Library",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
