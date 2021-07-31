@@ -1,6 +1,6 @@
 {
   "name": "@nghinv/react-native-app-tour",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "React Native app tour Library",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -66,15 +66,15 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "^0.64.2"
+    "react-native": "*",
+    "react-native-svg": "*",
+    "react-native-gesture-handler": "*",
+    "react-native-reanimated": ">=2.0.0-rc.0",
+    "react-native-animateable-text": "^0.6.2"
   },
   "dependencies": {
     "react-fast-compare": "*",
-    "react-native-gesture-handler": "*",
-    "react-native-reanimated": ">=2.0.0-rc.0",
-    "react-native-event-listeners": "^1.0.7",
-    "react-native-animateable-text": "^0.6.2",
-    "react-native-svg": "*"
+    "react-native-event-listeners": "*"
   },
   "jest": {
     "preset": "react-native",

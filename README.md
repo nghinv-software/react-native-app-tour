@@ -16,14 +16,19 @@ React Native App Tour Library
 ## Installation
 
 ```sh
-npm install @nghinv/react-native-app-tour
+yarn add @nghinv/react-native-app-tour
 ```
-
 or 
 
 ```sh
-yarn add @nghinv/react-native-app-tour
+npm install @nghinv/react-native-app-tour
 ```
+
+```sh
+yarn add react-native-gesture-handler react-native-reanimated react-native-animateable-text react-native-svg
+```
+
+> IOS run `cd ios && pod install`
 
 ## Usage
 
@@ -255,6 +260,10 @@ export function App() {
 | node | `NodeType` |  |  |
 | scene | `SceneType` |  |  |
 
+---
+## Credits
+
+- [@Nghi-NV](https://github.com/Nghi-NV)
 
 [version-badge]: https://img.shields.io/npm/v/@nghinv/react-native-app-tour.svg?style=flat-square
 [package]: https://www.npmjs.com/package/@nghinv/react-native-app-tour
