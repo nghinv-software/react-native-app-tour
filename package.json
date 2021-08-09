@@ -1,6 +1,6 @@
 {
   "name": "@nghinv/react-native-app-tour",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "React Native app tour Library",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -60,6 +60,10 @@
     "prettier": "^2.0.5",
     "react": "16.13.1",
     "react-native": "0.64.2",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-reanimated": "^2.2.0",
+    "react-native-animateable-text": "^0.6.2",
+    "react-native-svg": "12.1.1",
     "react-native-builder-bob": "^0.18.0",
     "release-it": "^14.10.0",
     "typescript": "^4.0.8"
