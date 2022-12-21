@@ -112,7 +112,8 @@ function MashView(props: MashViewProps) {
 
   const animatedPropsBackdrop = useAnimatedProps(() => {
     return {
-      fill: interpolateColor(progress.value, [0, 1], ['rgba(0, 0, 0, 0)', `rgba(0, 0, 0, ${options?.backdropOpacity ?? 0.8})`]),
+      //fill: interpolateColor(progress.value, [0, 1], ['rgba(0, 0, 0, 0)', `rgba(0, 0, 0, ${options?.backdropOpacity ?? 0.8})`]),
+      fillOpacity: interpolate(progress.value, [0, 1], [0, 1]),
     };
   });
 
@@ -254,6 +255,7 @@ function MashView(props: MashViewProps) {
           animatedProps={animatedPropsBackdrop}
           height="100%"
           width="100%"
+          fill={`rgba(0,0,0,${options?.backdropOpacity || 0.8})`}
           mask="url(#mask)"
           fill-opacity="0"
         />
